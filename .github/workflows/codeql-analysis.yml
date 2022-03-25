@@ -52,7 +52,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-e26873d/codeql-bundle.tar.gz
+        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220311-60d0cbc/codeql-bundle.tar.gz
         queries: security-and-quality
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
